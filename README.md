@@ -56,6 +56,10 @@ you can deploy this script on `Vercel.com` for free
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fmskian%2Fsslcheck-api)  
 
+## Module
+
+Node SSL Checker - <https://github.com/dyaa/ssl-checker>
+
 ## LICENSE
 
 MIT
