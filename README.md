@@ -1,5 +1,7 @@
 # SSLCheck API
 
+![API Test](https://github.com/mskian/sslcheck-api/workflows/API%20Test/badge.svg)  
+
 Simple API to Get the SSL Expiry date, time and Days.
 
 ## Requirements
@@ -45,6 +47,12 @@ http://localhost:3001/google.com
     }
 ]
 ```
+
+## Deploy
+
+you can deploy this script on `Vercel.com` for free  
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fmskian%2Fsslcheck-api)  
 
 ## LICENSE
 
