@@ -1,0 +1,31 @@
+{
+  "name": "sslcheck-api",
+  "version": "1.0.0",
+  "description": "SSL Expiry date Check API.",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "action": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mskian/sslcheck-api.git"
+  },
+  "keywords": [
+    "sslcheck",
+    "ssl"
+  ],
+  "author": "Santhosh Veer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mskian/sslcheck-api/issues"
+  },
+  "homepage": "https://github.com/mskian/sslcheck-api#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "ssl-checker": "^2.0.7"
+  }
+}
