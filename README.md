@@ -1,6 +1,6 @@
 # SSLCheck API
 
-![API Test](https://github.com/mskian/sslcheck-api/workflows/API%20Test/badge.svg)  
+![API Test](https://github.com/mskian/sslcheck-api/workflows/API%20Test/badge.svg) [![dependencies Status](https://david-dm.org/mskian/sslcheck-api/status.svg)](https://david-dm.org/mskian/sslcheck-api)  
 
 Simple API to Get the SSL Expiry date, time and Days.
 
