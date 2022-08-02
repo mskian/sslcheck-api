@@ -1,6 +1,6 @@
 const express = require("express");
 const moment = require("moment");
-const sslChecker = require("ssl-checker");
+const sslChecker = require("ssl-checker-node-api");
 const apicache = require("apicache");
 const { rateLimit } = require("express-rate-limit");
 
@@ -44,12 +44,14 @@ app.get("/:domain", cache("1 hour"), apiRequestLimiter, function (req, res) {
       var enddate = new Date(certdata.validTo);
       var certstart = moment(startdate);
       var certend = moment(enddate);
+      var certissuer = certdata.issuer
       var ssldata = [
         {
           domain: get_domain,
           issued: certstart.format("LLLL"),
           expires: certend.format("LLLL"),
           daysleft: certdata.daysRemaining,
+          provider: certissuer,
         },
       ];
       res.send(JSON.stringify(ssldata, null, 4));

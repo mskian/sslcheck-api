@@ -43,9 +43,10 @@ http://localhost:3001/google.com
 [
     {
         "domain": "google.com",
-        "issued": "Tuesday, November 10, 2020 8:04 PM",
-        "expires": "Tuesday, February 2, 2021 8:04 PM",
-        "daysleft": 28
+        "issued": "Monday, July 11, 2022 1:50 PM",
+        "expires": "Monday, October 3, 2022 1:50 PM",
+        "daysleft": 62,
+        "provider": "Google Trust Services LLC"
     }
 ]
 ```
@@ -58,7 +59,7 @@ you can deploy this script on `Vercel.com` for free
 
 ## Module
 
-Node SSL Checker - <https://github.com/dyaa/ssl-checker>
+Node SSL Checker - <https://github.com/mskian/ssl-checker-node-api>
 
 ## LICENSE
 
