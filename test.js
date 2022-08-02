@@ -1,5 +1,5 @@
 const moment = require('moment');
-const sslChecker = require('ssl-checker');
+const sslChecker = require('ssl-checker-node-api');
 
 const get_domain = 'santhoshveer.com';
 sslChecker(get_domain).then((certdata) => {
@@ -12,7 +12,8 @@ sslChecker(get_domain).then((certdata) => {
         domain: get_domain,
         issued: certstart.format('LLLL'),
         expires: certend.format('LLLL'),
-        daysleft: certdata.daysRemaining
+        daysleft: certdata.daysRemaining,
+        issuer: certdata.issuer
     }]);
     console.log(JSON.stringify(ssldata, null, 4));
 
