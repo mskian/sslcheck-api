@@ -18,6 +18,7 @@ const apiRequestLimiter = rateLimit({
         issued: "Not Found",
         expires: "Not Found",
         daysleft: "Not Found",
+        provider: "Not Found",
       },
     ]);
   },
@@ -66,6 +67,7 @@ app.get("/:domain", cache("1 hour"), apiRequestLimiter, function (req, res) {
             issued: "Not Found",
             expires: "Not Found",
             daysleft: "Not Found",
+            provider: "Not Found",
           },
         ]);
       } else if (err.code === "ECONNREFUSED") {
@@ -76,6 +78,7 @@ app.get("/:domain", cache("1 hour"), apiRequestLimiter, function (req, res) {
             issued: "Not Found",
             expires: "Not Found",
             daysleft: "Not Found",
+            provider: "Not Found",
           },
         ]);
       }
