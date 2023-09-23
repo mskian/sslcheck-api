@@ -589,10 +589,10 @@ simple-update-notifier@^2.0.0:
   dependencies:
     semver "^7.5.3"
 
-ssl-checker-node-api@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/ssl-checker-node-api/-/ssl-checker-node-api-0.0.1.tgz#b4b305fcfa20ac45cd6744eaf42b49e842b28a66"
-  integrity sha512-7GvjBB9rGiMNzu3o7wuylccuHJZuEMpAj8W4puzhaW9t3MAz2ECbYD+zpSXjtkTWhEYkVpZCbfcE9FDGp/umQA==
+ssl-checker-node-api@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/ssl-checker-node-api/-/ssl-checker-node-api-0.0.2.tgz#f06cc0c2a876b21126ae4cbe82ce32560ff605c0"
+  integrity sha512-ATH5MhGeA+cdGGdhDLnsIUim38+xAB/L7wJ4bOzhApX0YgB0Q0Nd5gp0Eb8H8AAbipUM4omGnjhDpVb2CUipGA==
 
 statuses@2.0.1:
   version "2.0.1"
