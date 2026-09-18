@@ -28,7 +28,7 @@
     "apicache": "^1.6.3",
     "express": "^4.22.3",
     "express-rate-limit": "^7.5.1",
-    "moment": "^2.30.1",
+    "moment": "^2.31.0",
     "ssl-checker-node-api": "^0.0.2"
   },
   "devDependencies": {
